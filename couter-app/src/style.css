@@ -1,0 +1,46 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+    color: aliceblue;
+
+}
+.container .number{
+    font-size: 6rem;
+}
+.btns-container{
+    width: 40rem;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2rem;
+
+}
+.increment{
+    padding: 10px 20px;
+    border-radius: 100px;
+    font-size: 2rem;
+    cursor: pointer;
+    background-color: black;
+    color: white;
+
+
+}
+.decrement{
+    padding: 10px 20px;
+    border-radius: 100px;
+    font-size: 2rem;
+    cursor: pointer;
+    background-color: black;
+    color: white;
+   
+    
+}
